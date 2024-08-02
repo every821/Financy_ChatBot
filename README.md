@@ -1,6 +1,4 @@
-# financial-chat
-
-A financial chat application powered by [LangChain](https://www.langchain.com/), [LangGraph](https://langchain-ai.github.io/langgraph), [OpenBB](https://openbb.co/products/platform), [Claude 3 Opus](https://www.anthropic.com/claude), and [Streamlit](https://streamlit.io).
+# Financy_ChatBot
 
 ## Blog Articles
 
@@ -75,13 +73,13 @@ You can view the [Swagger Docs](http://0.0.0.0:8080/docs) and test out the [Play
 Build the Docker image:
 
 ```bash
-docker build -t financial-chat .
+docker build -t Financy_ChatBot .
 ```
 
 Run the Docker container:
 
 ```bash
-docker run -p 8080:8080 --env-file .env financial-chat
+docker run -p 8080:8080 --env-file .env Financy_ChatBot
 ```
 
 ## Project Structure
